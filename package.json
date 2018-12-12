@@ -1,0 +1,16 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "vidann1 <vidans233@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
