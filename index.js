@@ -8,7 +8,7 @@ bot.on("ready", async () => {
   console.log(`${bot.user.username} is online`);
 });
 
-bot.on("ready", () => {
+bot.on("message", message => {
   if (message.content === "!avatar") {
     message.reply(message.author.avatarURL);
   }

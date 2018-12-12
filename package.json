@@ -5,7 +5,7 @@
   "author": "vidann1 <vidans233@yahoo.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^11.4.2"
